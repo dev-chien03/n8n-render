@@ -1,3 +1,3 @@
 FROM n8nio/n8n:latest
 ENV N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
-VOLUME ["/data"]
+VOLUME ["/home/node/.n8n"]
